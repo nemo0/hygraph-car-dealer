@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.image {
+  width: 200px;
+  height: 150px;
+  margin-right: 20px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.make {
+  font-size: 1rem;
+  color: gray;
+  margin: 5px 0;
+}
+
+.details {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.price {
+  font-size: 1rem;
+  color: gray;
+}
+
+.condition {
+  font-size: 1rem;
+  color: gray;
+}
+
+.button {
+  width: 7rem;
+}
